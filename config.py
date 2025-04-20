@@ -5,8 +5,8 @@
 from os import environ 
 
 class Config:
-    API_ID = int(environ.get("API_ID", "22422690"))
-    API_HASH = environ.get("API_HASH", "2884fbc53b44a1bbcfa7c525e185c1aa")
+    API_ID = int(environ.get("API_ID", "19822115"))
+    API_HASH = environ.get("API_HASH", "d251f606bc7910135770ac2d454dd2c6")
     BOT_TOKEN = environ.get("BOT_TOKEN", "") 
     BOT_SESSION = environ.get("BOT_SESSION", "vjbot") 
     DATABASE_URI = environ.get("DATABASE_URI", "")
